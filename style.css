@@ -1,0 +1,364 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:#0a0a0b ;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    background-color:#0a0a0b ;
+    min-height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 4%;
+}
+.logo h2 {
+    letter-spacing: 1px;
+}
+.nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links ul li {
+    margin: 0px 18px;
+}
+
+.nav-links ul li a {
+    color: #adadad;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links ul li::after {
+    content: "";
+    background-color: #fbe850;
+    display: block;
+    height: 2px;
+    bottom: 0;
+    width: 0;
+    margin: auto;
+    transition: 0.3s all;
+}
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.nav-btn {
+    display: inline-block;
+    background-color: #fbe850;
+    padding: 12px 22px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*--------------HEADER TEXT BOX---------------*/
+
+/*--------------HEADER TEXT BOX---------------*/
+
+/*--------------HEADER TEXT BOX---------------*/
+
+/*--------------HEADER TEXT BOX---------------*/
+
+/*--------------HEADER TEXT BOX---------------*/
+
+.header-textbox {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    padding: 2% 4%;
+}
+
+.header-textbox .upper {
+    margin-bottom: 80px;
+}
+
+.header-textbox .upper h1 {
+    font-size: 50px;
+    font-weight:100;
+}
+
+.header-textbox .upper p {
+    line-height: 20px;
+    color: #adadad;
+    margin-top: 10px;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*--------------BOTTOM HEADER - DVIJE SLIKE--------------*/
+/*--------------BOTTOM HEADER - DVIJE SLIKE--------------*/
+/*--------------BOTTOM HEADER - DVIJE SLIKE--------------*/
+/*--------------BOTTOM HEADER - DVIJE SLIKE--------------*/
+/*--------------BOTTOM HEADER - DVIJE SLIKE--------------*/
+
+.bottom-header {
+   display: flex;
+   justify-content: space-between;
+   padding: 2% 4%;
+   margin-top: 70px;
+   margin-bottom: 100px;
+   position: relative;
+  
+   
+}
+.sekcija1 {
+    flex-basis: 47%;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s all;
+    height: 500px ;
+}
+.sekcija2 {
+    flex-basis: 47%;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+    transition: 0.3s all;
+    height: 500px ;
+}
+
+.sekcija1 h3 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.sekcija1 p {
+    color: #adadad;
+}
+
+.sekcija2 h3 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.sekcija2 p {
+    color: #adadad;
+}
+
+
+.bottom-header .sekcija1  img, .sekcija2 img {
+    width: 100%;
+    display: block;
+}
+
+.sekcija1:hover {
+    cursor: pointer;
+    padding-top: 10px;
+}
+.sekcija2:hover {
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+/*-----------HERO SECTION-------------*/
+/*-----------HERO SECTION-------------*/
+/*-----------HERO SECTION-------------*/
+/*-----------HERO SECTION-------------*/
+/*-----------HERO SECTION-------------*/
+
+
+.hero-section {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #2e3038;
+}
+
+.hero-inner {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap:60px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box1 h1 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.box1 .p1 {
+    margin-bottom: 20px;
+    color: #adadad;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+
+.box1 .p2 {
+        color: #adadad;
+    word-spacing: 2px;
+    line-height: 20px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box2 p {
+    color: #adadad;
+}
+
+/*------------prefooter------------*/
+
+.pre-footer {
+    width: 90%;
+    margin: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: #fff;
+}
+
+.inner-prefooter {
+    max-width: 650px;
+}
+
+.inner-prefooter h1 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.inner-prefooter p {
+    color: #adadad;
+    margin-bottom: 35px;
+
+}
+.burger {
+    display: block;
+    width: 35px;
+    height: 25px;
+    display: none;
+}
+.burger div {
+    background-color: #fbe850;
+    height: 3px;
+    margin: 5px;
+    width: 100%;
+}
+
+/*FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER FOOTER*/
+footer {
+    background-color: #2e3038;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.inner-footer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.inner-footer h2 {
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.footer-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-links ul li {
+   margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .nav-links {
+        display: none;
+    }
+    nav .nav-btn {
+        display: none;
+    }
+    nav h2 {
+        font-size: 22px;
+    }
+
+    .header-textbox {
+        margin-top: 130px;
+        padding: 0;
+    }
+    .header-textbox .upper h1 {
+        font-size: 32px;
+    }
+    .lower {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lower img {
+        width: 120px;
+        margin-bottom: 5px;
+
+    }
+
+    .bottom-header {
+        flex-direction: column;
+        margin-top: 200px;
+    }
+    .bottom-header div {
+        margin-bottom: 50px;
+    }
+    .bottom-header div h3 {
+        font-size: 26px;
+    }
+    .bottom-header div p {
+        font-size: 15px;
+    }
+
+    .hero-inner {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 150px;
+    }
+    .hero-inner p {
+        font-size: 14px;
+    }
+    .burger {
+        display: block;
+    }
+    
+  
+}
